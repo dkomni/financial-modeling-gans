@@ -11,3 +11,6 @@ This repository was created for the needs of the main part of my thesis titled '
 As yet, the following are included:
  - A classical Wasserstein GAN with gradient penalty for generating synthetic loagrithmic returns with the S&P 500 Index as a benchmark.
  - A quantum Wasserstein GAN with gradient penalty for generating synthetic loagrithmic returns with the S&P 500 Index as a benchmark, featuring diverse architectures based on the topology of the entangling layers of the quantum generator circuit.
+
+## Wasserstein GAN with Gradient Penalty (WGAN-GP)
+In the notebook titled 'WGAN_S&P500', a thorough analysis of several properties that real-world financial data exhibit is conducted. Based on this information, an attempt to implement a Wasserstein GAN with gradient penalty that generates financial time series with such properties is made. The WGAN-GP algorithm is based on 'Improved Training of Wasserstein GANs' by I. Gulrajani et. al, publised in 2017 and can be found in https://arxiv.org/pdf/1704.00028.pdf.
