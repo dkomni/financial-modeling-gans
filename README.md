@@ -12,5 +12,11 @@ As yet, the following are included:
  - A classical Wasserstein GAN with gradient penalty for generating synthetic loagrithmic returns with the S&P 500 Index as a benchmark.
  - A quantum Wasserstein GAN with gradient penalty for generating synthetic loagrithmic returns with the S&P 500 Index as a benchmark, featuring diverse architectures based on the topology of the entangling layers of the quantum generator circuit.
 
-## Wasserstein GAN with Gradient Penalty (WGAN-GP)
-In the notebook titled 'WGAN_S&P500', a thorough analysis of several properties that real-world financial data exhibit is conducted. Based on this information, an attempt to implement a Wasserstein GAN with gradient penalty that generates financial time series with such properties is made. The WGAN-GP algorithm is based on 'Improved Training of Wasserstein GANs' by I. Gulrajani et. al, publised in 2017 and can be found in https://arxiv.org/pdf/1704.00028.pdf.
+### Wasserstein GAN with Gradient Penalty (WGAN-GP)
+In the notebook titled 'WGAN_S&P500' in folder 'Wasserstein GANs', a thorough analysis of several properties that real-world financial data exhibit is conducted. Based on this information, an attempt to implement a Wasserstein GAN with gradient penalty that generates financial time series with such properties is made. As a benchmark, the daily closing values of the S&P 500 Index are used. The WGAN-GP algorithm is based on 'Improved Training of Wasserstein GANs' by I. Gulrajani et. al, publised in 2017 and can be found in https://arxiv.org/pdf/1704.00028.pdf. A similar work may be found in https://studenttheses.universiteitleiden.nl/handle/1887/3278321 by E. Schwander, where his thesis was published in 2022.
+
+
+### Quantum Wasserstein GAN with Gradient Penalty (QWGAN-GP)
+In folder 'Quantum Wasserstein GANs', there are several implementations regarding hybrid classical-quantum generative modeling. The generator of the classical WGAN-GP is replaced by a parameterized quantum circuit, featuring diverse architectures. Schwander conducted a thorough research in terms of the number of qubits and layers used in the quantum generator. In his work, he utilizes non-parameterized entangling layers using CZ gates for coupling and studies two topologies. Motivated by this, we try to reproduce the results and consider additional topologies. Moreover, the quantum circuit architecture is adjusted by introducing entangling layers with trainable parameters using Mølmer-Sørensen gates.
+
+For a detailed description, please check my thesis at:
