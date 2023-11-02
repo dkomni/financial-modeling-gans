@@ -1,5 +1,7 @@
 # Classical and Quantum Generative Modeling for Finance
 
+<img src="https://github.com/dkomni/financial-modeling-gans/blob/master/images/financial_intro.png" width="1000" height="500">
+
 In an era where data-driven insights and predictive analytics play an increasingly critical role in the financial sector, the fusion of classical and quantum generative models, with a special emphasis on Generative Adversarial Networks (GANs), offers an exciting frontier of innovation.
 
 Financial time series data, with its complex, multifaceted nature, has been a longstanding challenge for data scientists, traders and analysts. Traditional approaches often fall short in capturing the intricate patterns and dynamics inherent to financial markets. This repository is dedicated to exploring cutting-edge techniques and methodologies that empower us to generate realistic and informative financial time series data, revolutionizing how we model, forecast and analyze financial markets.
