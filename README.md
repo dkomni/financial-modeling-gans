@@ -1,9 +1,5 @@
 # Classical and Quantum Generative Modeling for Finance
 
-<p align="center">
-<img src="https://github.com/dkomni/financial-modeling-gans/blob/master/images/financial_intro.png" width="600" height="300">
-</p>
-
 In an era where data-driven insights and predictive analytics play an increasingly critical role in the financial sector, the fusion of classical and quantum generative models, with a special emphasis on Generative Adversarial Networks (GANs), offers an exciting frontier of innovation.
 
 Financial time series data, with its complex, multifaceted nature, has been a longstanding challenge for data scientists, traders and analysts. Traditional approaches often fall short in capturing the intricate patterns and dynamics inherent to financial markets. This repository is dedicated to exploring cutting-edge techniques and methodologies that empower us to generate realistic and informative financial time series data, revolutionizing how we model, forecast and analyze financial markets.
@@ -23,4 +19,4 @@ In the notebook titled 'WGAN_S&P500' in folder 'Wasserstein GANs', a thorough an
 ### Quantum Wasserstein GAN with Gradient Penalty (QWGAN-GP)
 In folder 'Quantum Wasserstein GANs', there are several implementations regarding hybrid classical-quantum generative modeling. The generator of the classical WGAN-GP is replaced by a parameterized quantum circuit, featuring diverse architectures. Schwander conducted a thorough research in terms of the number of qubits and layers used in the quantum generator. In his work, he utilizes non-parameterized entangling layers using CZ gates for coupling and studies two topologies. Motivated by this, we try to reproduce the results and consider additional topologies. Moreover, the quantum circuit architecture is adjusted by introducing entangling layers with trainable parameters using Mølmer-Sørensen gates.
 
-For a detailed description, please check my thesis at:
+For a detailed description, please check my thesis at: https://doi.org/10.26233/heallink.tuc.98643
