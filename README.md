@@ -9,8 +9,8 @@ The goal is to provide a comprehensive resource for researchers, developers and 
 This repository was created for the needs of the main part of my thesis titled 'Quantum Computing for Generative Modeling and Applications', where the problem of synthetic data generation is tackled. Contributions, questions and insights are invaluable as we can collectively delve into this dynamic and transformative field.
 
 As yet, the following are included:
- - A classical Wasserstein GAN with gradient penalty (WGAN-GP) for generating synthetic loagrithmic returns with the S&P 500 Index as a benchmark.
- - A quantum Wasserstein GAN with gradient penalty (QWGAN-GP) for generating synthetic loagrithmic returns with the S&P 500 Index as a benchmark, featuring diverse architectures based on the parameters and topology of the entangling layers of the quantum generator circuit.
+ - A classical Wasserstein GAN with gradient penalty (WGAN-GP) for generating synthetic logarithmic returns with the S&P 500 Index as a benchmark.
+ - A quantum Wasserstein GAN with gradient penalty (QWGAN-GP) for generating synthetic logarithmic returns with the S&P 500 Index as a benchmark, featuring diverse architectures based on the parameters and topology of the entangling layers of the quantum generator circuit.
 
 ### Wasserstein GAN with Gradient Penalty (WGAN-GP)
 In the notebook titled 'WGAN_S&P500' in folder 'Wasserstein GANs', a thorough analysis of several properties that real-world financial data exhibit is conducted. Based on this information, an attempt to implement a Wasserstein GAN with gradient penalty that generates financial time series with such properties is made. As a benchmark, the daily closing values of the S&P 500 Index are used. The WGAN-GP algorithm is based on 'Improved Training of Wasserstein GANs' by I. Gulrajani et. al, publised in 2017 and can be found in https://arxiv.org/pdf/1704.00028.pdf. A similar work may be found in https://studenttheses.universiteitleiden.nl/handle/1887/3278321 by E. Schwander, where his thesis was published in 2022.
